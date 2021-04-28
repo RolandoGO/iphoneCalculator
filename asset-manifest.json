@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/iphoneCalculator/static/css/main.e841b186.chunk.css",
+    "main.js": "/iphoneCalculator/static/js/main.54faa796.chunk.js",
+    "main.js.map": "/iphoneCalculator/static/js/main.54faa796.chunk.js.map",
+    "runtime-main.js": "/iphoneCalculator/static/js/runtime-main.ffa5e009.js",
+    "runtime-main.js.map": "/iphoneCalculator/static/js/runtime-main.ffa5e009.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/iphoneCalculator/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.685fb1fb.chunk.js": "/iphoneCalculator/static/js/2.685fb1fb.chunk.js",
+    "static/js/2.685fb1fb.chunk.js.map": "/iphoneCalculator/static/js/2.685fb1fb.chunk.js.map",
+    "index.html": "/iphoneCalculator/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/iphoneCalculator/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.e841b186.chunk.css.map": "/iphoneCalculator/static/css/main.e841b186.chunk.css.map",
+    "static/js/2.685fb1fb.chunk.js.LICENSE.txt": "/iphoneCalculator/static/js/2.685fb1fb.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ffa5e009.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.685fb1fb.chunk.js",
+    "static/css/main.e841b186.chunk.css",
+    "static/js/main.54faa796.chunk.js"
+  ]
+}
