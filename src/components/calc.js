@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
 
 
+
 const Calculadora  = () => {
 
-  const [numbers]=useState([[9,8,7,6],[5,4,3],[2,1,0]])
-  const[lastRow]=useState(["="])
-  const [simbols]=useState(["AC","+/-","/","*","-","+",".","<--"])
+  const numbers = [[9,8,7,6],[5,4,3],[2,1,0]]
+  const lastRow= ["="]
+  const simbols = ["AC","+/-","/","*","-","+",".","<--"]
   const [display,setDisplay]=useState("".toString())
   
 
