@@ -37,8 +37,8 @@ const Calculadora  = () => {
 
     else if(simb==="+/-"){
       
-      if(display.search(/[+|\-|\*|\/]/)>0)setDisplay("Error")
-      else setDisplay(prev=>(Number(prev)*-1).toString())
+      if(display.toString().search(/[+|\-|\*|\/]/)>0)setDisplay("Error")
+      else setDisplay(prev=>(Number(prev)*-1))
     }
     
   
@@ -55,27 +55,29 @@ const Calculadora  = () => {
 
   function igual (){
     const total=eval(display)
-    setDisplay(total.toString())
+    setDisplay(total)
   }
+
+  
+
+  const simbolsDisplay = (simbols.map(col=><div key={col} className="col-3 m-1 my-col simbols" onClick={simb}>{col}</div>))
+
+  const numbersDisplay = (numbers.map(ele=>ele.map(col=><div key={col} className="col-3 m-1 my-col" onClick={num}>{col}</div>)))
+
 
     return (
       <div className=" my-container">
         <div className="row my-row justify-content-center">
           <div className="col-10 m-2 pantalla" style={{height:"50px"}}>
-    <span className="h3">{display}</span>
+            <span className="h3">{display}</span>
           </div>
     
-          {simbols.map(col=><div key={col} className="col-3 m-1 my-col simbols" onClick={simb}>{col}</div>)}
-          {numbers.map(ele=>ele.map(col=><div key={col} className="col-3 m-1 my-col" onClick={num}>{col}</div>))}
+          {simbolsDisplay}
+          {numbersDisplay}
 
-        <div key={"="} className="col-6 mt-1 ml-2 simbols " id="igual" onClick={igual}>=</div>
+          <div key={"="} className="col-6 mt-1 ml-2 simbols " id="igual" onClick={igual}>=</div>
       
         </div>
-          
-          
-            
-      
-        
       </div>
       );
 }

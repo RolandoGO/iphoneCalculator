@@ -1,75 +1,70 @@
-
-
-
-
-.my-container{
-    border: 1px solid black;
-    width: 250px;
-    height: 550px;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    border-radius: 10px;
-
-    background-color: rgb(22, 20, 20);
-   
-}
-#igual{
-    
-    border-radius: 5px;
-    height: 55px;
-    width: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-}
-.my-col{
-    background-color: rgb(48, 41, 41);
-    border-radius: 50%;
-    height: 60px;
-    width: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    
+.mainContainer {
+  background-color: rgb(5, 5, 5);
+  height: 100vh;
+  width: 100vw;
+  padding: 5px;
+  margin-top: 10px;
 }
 
-.my-row{
-    justify-content: space-around;
-    
-    width: 100%;
-    height: 100%;
+.my-container {
+  border: 1px solid black;
+  width: 250px;
+  height: 550px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+
+  background-color: rgb(22, 20, 20);
+}
+#igual {
+  border-radius: 5px;
+  height: 55px;
+  width: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  cursor: pointer;
+}
+.my-col {
+  background-color: rgb(48, 41, 41);
+  border-radius: 50%;
+  height: 60px;
+  width: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  cursor: pointer;
 }
 
-.pantalla{
+.my-row {
+  justify-content: space-around;
 
-    background-color: rgb(180, 168, 168);
-    border-radius: 5px;
-    text-align: end;
-    overflow: auto;
+  width: 100%;
+  height: 100%;
+}
+
+.pantalla {
+  background-color: rgb(180, 168, 168);
+  border-radius: 5px;
+  text-align: end;
+  overflow: auto;
 }
 .pantalla::-webkit-scrollbar {
-   
-    height: 10px;
-  }
-  
-  .pantalla::-webkit-scrollbar-thumb {
-    background: #ec9e0d; 
-  
-    border: 3px solid transparent;
-    border-radius: 9px;
-    background-clip: content-box;
-}
-  
-
-.simbols{
-    background-color: rgb(241, 148, 25);
+  height: 10px;
 }
 
+.pantalla::-webkit-scrollbar-thumb {
+  background: #ec9e0d;
 
+  border: 3px solid transparent;
+  border-radius: 9px;
+  background-clip: content-box;
+}
 
-
-
-
+.simbols {
+  background-color: rgb(241, 148, 25);
+  cursor: pointer;
+}
